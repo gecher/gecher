@@ -3,8 +3,8 @@
 <h1 align="center">Hi, I'm Getacher Ashebir 👋</h1>
 
 <p align="center">
-  <b>Backend Engineer · AI & Agentic Systems · Enterprise Architect</b><br/>
-  <i>Ethiopian Airlines · Addis Ababa, Ethiopia</i>
+  <b>Software Engineer · Backend Developer · Enterprise Solutions Architect</b><br/>
+  <i>Ethiopian Airlines | Addis Ababa, Ethiopia</i>
 </p>
 
 <p align="center">
