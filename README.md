@@ -1,264 +1,107 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1e,50:1565c0,100:0097a7&height=220&section=header&text=Getacher%20Ashebir%20Yimer&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20%7C%20Backend%20Engineer%20%7C%20AI%20%26%20Agentic%20Systems&descSize=16&descAlignY=58&descColor=90caf9" />
-</p>
-
-<p align="center">
-  <a href="mailto:getacherashebir@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-getacherashebir%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/gecher">
-    <img src="https://img.shields.io/badge/GitHub-gecher-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="tel:+251949821895">
-    <img src="https://img.shields.io/badge/Phone-%2B251%20949%20821%20895-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
-</p>
-
----
-
-## 👋 Hi, I'm Getacher Ashebir
-
-🚀 **Backend-focused Full Stack Engineer** specializing in **AI-powered systems, agentic workflows, and scalable enterprise platforms**.
-
-Currently at **Ethiopian Airlines** (2022–Present), where I lead backend architecture for mission-critical systems across aviation, procurement, healthcare, and digital service delivery — serving **10,000+ daily operations** and **17,000+ employees**.
-
-> *"Building intelligent systems that simplify complex enterprise operations."*
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap'); \*{margin:0;padding:0;box-sizing:border-box;} :root{ --navy:#0a0f1e;--navy2:#0e1628;--navy3:#111d35; --blue:#1e88e5;--blue2:#42a5f5;--blue3:#90caf9; --cyan:#00bcd4;--cyan2:#26c6da; --orange:#ff7043;--orange2:#ff8a65; --green:#00e676;--green2:#69f0ae; --purple:#7c4dff;--text:#e8eaf6;--muted:#8892b0; } body{ font-family:'Outfit',sans-serif; background:var(--navy); color:var(--text); overflow-x:hidden; min-height:100vh; } .profile-wrap{ max-width:820px; margin:0 auto; padding:2rem 1.5rem; } /\* ── HERO ── \*/ .hero{ position:relative; text-align:center; padding:3rem 1rem 2.5rem; overflow:hidden; } .hero-bg{ position:absolute;inset:0; background:radial-gradient(ellipse 80% 60% at 50% 0%, rgba(30,136,229,.18) 0%, transparent 70%), radial-gradient(ellipse 50% 40% at 80% 80%, rgba(0,188,212,.10) 0%, transparent 60%); animation:pulseBg 6s ease-in-out infinite alternate; } @keyframes pulseBg{from{opacity:.7}to{opacity:1}} .avatar-ring{ position:relative; width:110px;height:110px; margin:0 auto 1.5rem; display:flex;align-items:center;justify-content:center; } .avatar-ring::before{ content:'';position:absolute;inset:-5px; border-radius:50%; background:conic-gradient(var(--blue),var(--cyan),var(--purple),var(--orange),var(--blue)); animation:spinRing 4s linear infinite; } @keyframes spinRing{to{transform:rotate(360deg)}} .avatar-inner{ position:relative; width:100%;height:100%;border-radius:50%; background:linear-gradient(135deg,var(--blue),var(--purple)); display:flex;align-items:center;justify-content:center; font-family:'Space Mono',monospace; font-size:2rem;font-weight:700; color:#fff; z-index:1; box-shadow:0 0 30px rgba(30,136,229,.4); border:3px solid var(--navy); } .hero-name{ font-family:'Outfit',sans-serif; font-size:2.2rem;font-weight:700; background:linear-gradient(90deg,var(--blue2),var(--cyan),var(--blue3)); -webkit-background-clip:text;-webkit-text-fill-color:transparent; background-clip:text; animation:shimmer 3s ease infinite; background-size:200% auto; } @keyframes shimmer{ 0%{background-position:0%}100%{background-position:200%} } .hero-title{ font-size:1rem;color:var(--muted);margin:.6rem 0 1.2rem; font-weight:400;letter-spacing:.02em; } .hero-title span{color:var(--cyan2);font-weight:500;} .badges{ display:flex;flex-wrap:wrap;gap:.5rem; justify-content:center;margin-bottom:1.5rem; } .badge{ font-size:.72rem;font-weight:600;letter-spacing:.05em; padding:.32rem .8rem;border-radius:20px; text-transform:uppercase; border:1px solid; animation:fadeSlideIn .6s ease both; } .badge-blue{background:rgba(30,136,229,.12);color:var(--blue2);border-color:rgba(30,136,229,.3);} .badge-cyan{background:rgba(0,188,212,.12);color:var(--cyan2);border-color:rgba(0,188,212,.3);} .badge-orange{background:rgba(255,112,67,.12);color:var(--orange2);border-color:rgba(255,112,67,.3);} .badge-purple{background:rgba(124,77,255,.12);color:#b39ddb;border-color:rgba(124,77,255,.3);} .badge-green{background:rgba(0,230,118,.1);color:var(--green2);border-color:rgba(0,230,118,.25);} .badge:nth-child(1){animation-delay:.1s} .badge:nth-child(2){animation-delay:.2s} .badge:nth-child(3){animation-delay:.3s} .badge:nth-child(4){animation-delay:.4s} .badge:nth-child(5){animation-delay:.5s} @keyframes fadeSlideIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}} .terminal-tagline{ font-family:'Space Mono',monospace; font-size:.82rem;color:var(--green2); background:rgba(0,230,118,.06); border:1px solid rgba(0,230,118,.2); border-radius:8px; padding:.6rem 1.2rem; display:inline-block; margin-top:.5rem; } .terminal-tagline::before{content:'> ';color:var(--muted);} .cursor{display:inline-block;width:2px;height:.9em;background:var(--green2);margin-left:2px;animation:blink 1s step-end infinite;vertical-align:text-bottom;} @keyframes blink{50%{opacity:0}} /\* ── SECTION ── \*/ .section{margin:1.8rem 0;} .section-title{ font-family:'Space Mono',monospace; font-size:.75rem;font-weight:700;letter-spacing:.12em; color:var(--blue2);text-transform:uppercase; display:flex;align-items:center;gap:.7rem; margin-bottom:1.1rem; } .section-title::after{content:'';flex:1;height:1px;background:linear-gradient(to right,rgba(30,136,229,.4),transparent);} /\* ── ABOUT GRID ── \*/ .about-grid{ display:grid;grid-template-columns:1fr 1fr;gap:.7rem; } .about-item{ background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.07); border-radius:10px; padding:.75rem 1rem; font-size:.88rem;color:var(--muted); display:flex;align-items:flex-start;gap:.6rem; transition:all .25s; animation:fadeSlideIn .5s ease both; } .about-item:hover{ background:rgba(30,136,229,.1); border-color:rgba(30,136,229,.3); color:var(--text);transform:translateY(-2px); } .about-item .dot{ width:6px;height:6px;border-radius:50%; margin-top:5px;flex-shrink:0; } /\* ── SKILLS ── \*/ .skills-grid{ display:grid;grid-template-columns:repeat(auto-fill,minmax(175px,1fr));gap:.7rem; } .skill-card{ background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.07); border-radius:10px;padding:.8rem 1rem; animation:fadeSlideIn .5s ease both; transition:all .25s; } .skill-card:hover{transform:translateY(-3px);border-color:rgba(30,136,229,.35);background:rgba(30,136,229,.08);} .skill-cat{font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:.5rem;} .skill-tags{display:flex;flex-wrap:wrap;gap:.35rem;} .skill-tag{ font-size:.7rem;font-weight:500; padding:.2rem .5rem;border-radius:5px; background:rgba(255,255,255,.07);color:var(--text); border:1px solid rgba(255,255,255,.1); } /\* ── PROJECTS ── \*/ .projects-list{display:flex;flex-direction:column;gap:.75rem;} .project-card{ background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.07); border-left:3px solid; border-radius:0 10px 10px 0; padding:.9rem 1.1rem; animation:fadeSlideIn .5s ease both; transition:all .25s; } .project-card:hover{transform:translateX(4px);background:rgba(255,255,255,.07);} .project-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:.4rem;flex-wrap:wrap;gap:.4rem;} .project-name{font-size:.95rem;font-weight:600;color:var(--text);} .project-icon{font-size:1.1rem;} .project-desc{font-size:.82rem;color:var(--muted);line-height:1.55;} .project-stack{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.55rem;} .stack-tag{ font-size:.65rem;font-weight:600;padding:.18rem .5rem;border-radius:4px; background:rgba(255,255,255,.06);color:var(--muted); border:1px solid rgba(255,255,255,.1);letter-spacing:.03em; } /\* ── STATS ── \*/ .stats-row{ display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem; } .stat-box{ background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.07); border-radius:10px;padding:1rem;text-align:center; animation:fadeSlideIn .5s ease both; transition:all .25s; } .stat-box:hover{transform:scale(1.03);border-color:rgba(0,188,212,.35);background:rgba(0,188,212,.07);} .stat-num{font-family:'Space Mono',monospace;font-size:1.5rem;font-weight:700;color:var(--cyan2);display:block;} .stat-label{font-size:.72rem;color:var(--muted);margin-top:.2rem;letter-spacing:.05em;} /\* ── DIVIDER ── \*/ .divider{height:1px;background:linear-gradient(to right,transparent,rgba(255,255,255,.1),transparent);margin:1.5rem 0;} /\* ── FOOTER ── \*/ .footer{text-align:center;padding:1.5rem 0 .5rem;} .footer-text{font-size:.78rem;color:var(--muted);font-style:italic;} .footer-quote{ font-family:'Space Mono',monospace; font-size:.78rem;color:var(--blue3); margin-top:.5rem; } /\* ── FLOATING PARTICLES ── \*/ .particles{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0;} .particle{ position:absolute; width:2px;height:2px;border-radius:50%; background:var(--blue2); animation:float linear infinite; opacity:0; } @keyframes float{ 0%{transform:translateY(100vh) scale(0);opacity:0} 10%{opacity:.6} 90%{opacity:.3} 100%{transform:translateY(-20px) scale(1.5);opacity:0} } .profile-wrap{position:relative;z-index:1;} .delay1{animation-delay:.15s} .delay2{animation-delay:.3s} .delay3{animation-delay:.45s} .delay4{animation-delay:.6s} .delay5{animation-delay:.75s} .delay6{animation-delay:.9s}
 
----
+Getacher Ashebir – GitHub Profile
+---------------------------------
 
-## 🧠 About Me
+GA
 
-- 🤖 Designing **multi-agent AI systems** and **LLM-driven workflows** with OpenAI, LangGraph & RAG
-- 🏗️ Leading backend architecture using **Clean Architecture, CQRS & MediatR** at scale
-- ✈️ Deep domain expertise in **aviation & enterprise systems** (Ethiopian Airlines, ECAA)
-- 🔄 Building **low-code e-service platforms** and **workflow automation engines** for rapid digital transformation
-- 📦 Integrating **Power Automate + SharePoint** for multi-level enterprise approval workflows
-- 👨‍💻 Mentoring junior developers and driving **architecture standards & code quality**
-- 🎓 BSc in Computer Science & Engineering – Dilla University (2016–2021)
+Getacher Ashebir
+================
 
----
+Backend Engineer · AI & Agentic Systems · Enterprise Architect
 
-## 💼 Professional Experience
+ASP.NET Core AI / LLMs Multi-Agent Aviation Systems Clean Architecture
 
-### Backend Lead / Full Stack Engineer — **Ethiopian Airlines**
-📍 Addis Ababa, Ethiopia &nbsp;|&nbsp; 🗓️ 2022 – Present
+Building intelligent systems for enterprise
 
-- **Systems Architecture:** Led design of scalable backend systems using Clean Architecture and CQRS, serving **10,000+ daily operations**
-- **Medical Management System:** Architected 15+ microservices with secure APIs for 17,000+ employees; automated notifications increased operational efficiency by **30%**
-- **Background Services:** Implemented event-driven Windows Services handling **1,000+ concurrent daily tasks** reliably
-- **CI/CD & DevOps:** Deployed Azure DevOps pipelines reducing deployment errors by **50%** and release downtime by **30%**
-- **Team Leadership:** Mentored 5+ junior developers; introduced architecture standards improving code quality by **20%**
+About Me
 
----
+Building AI-driven systems with multi-agent architectures
 
-## 🛠️ Technical Skills
+Designing enterprise e-service & workflow platforms
 
-### Languages
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+Large-scale backend systems in aviation industry
 
-### Backend
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![CQRS](https://img.shields.io/badge/CQRS-blueviolet?style=flat-square)
-![MediatR](https://img.shields.io/badge/MediatR-6f42c1?style=flat-square)
-![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-2ea44f?style=flat-square)
-![Windows Services](https://img.shields.io/badge/Windows_Services-0078D6?style=flat-square&logo=windows&logoColor=white)
+Passionate about LLMs, automation & intelligent flows
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+Creator of low-code dynamic form & workflow systems
 
-### Databases
-![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+Currently at Ethiopian Airlines on mission-critical systems
 
-### Cloud & DevOps
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+Technical Skills
 
-### AI & Agentic Systems
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-ff7043?style=flat-square)
-![Vector DBs](https://img.shields.io/badge/Vector_Databases-6f42c1?style=flat-square)
-![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Systems-blueviolet?style=flat-square)
+Languages
 
-### Enterprise & Automation
-![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white)
-![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=flat-square&logo=microsoftsharepoint&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![Low-Code](https://img.shields.io/badge/Low--Code_Platforms-00c853?style=flat-square)
+C# Python TypeScript SQL
 
----
+Backend
 
-## 🚀 Featured Projects
+ASP.NET Core EF Core CQRS MediatR
 
-### 🤖 Automaton Auditor – Multi-Agent AI Code Review System
-> AI-powered multi-agent system for automated repository auditing
+AI & Agents
 
-- Built multi-agent pipeline for structured code quality evaluation
-- Used **LangGraph + OpenAI tool-calling** for explainable, actionable reports
-- Automated detection of architectural issues, code smells & security patterns
+OpenAI API LangGraph RAG Vector DBs
 
-`LangGraph` `OpenAI` `Python` `Multi-Agent` `Tool Calling` `Prompt Engineering`
+Frontend
 
----
+React Next.js
 
-### 🏨 AlphaPlus – Transit Passenger Hotel Booking System
-> Scalable hotel booking backend for Ethiopian Airlines transit passengers
+Databases
 
-- Serving **2,000+ daily transit passengers** with reliable booking workflows
-- Designed secure RESTful APIs and background processing for bookings, notifications & reporting
-- **Reduced booking errors by 40%** through workflow optimization
+MSSQL PostgreSQL MongoDB
 
-`C#` `ASP.NET Core` `Entity Framework Core` `MSSQL` `Azure` `Azure DevOps`
+Cloud & DevOps
 
----
+Azure DevOps CI/CD GitHub Actions
 
-### 📦 E-Procurement System – Ethiopian Airlines
-> End-to-end procurement platform connecting finance, suppliers & inventory
+Featured Projects
 
-- Built purchase request, approval and supplier management workflows
-- Integrated **RabbitMQ** for asynchronous enterprise messaging
-- Supports **200+ suppliers** with real-time finance & inventory integration
+🤖 Automaton Auditor Multi-Agent
 
-`C#` `ASP.NET Core` `MSSQL` `Entity Framework Core` `RabbitMQ`
+AI multi-agent system for automated repository auditing. Uses LangGraph + OpenAI tool-calling for structured, explainable code quality evaluation.
 
----
+LangGraphOpenAIPythonTool Calling
 
-### 🏥 Medical Management System – Ethiopian Airlines
-> Enterprise healthcare system for 17,000+ employees
+✈️ ECAA E-Service Platform Aviation
 
-- Architected modular backend for medical records, appointments & notifications
-- **CQRS + MediatR** design ensures scalability, maintainability and high availability
-- Compliance-grade data handling across 15+ microservices
+Pilot licensing & crew application systems with a low-code dynamic form builder. Integrated Power Automate + SharePoint approval workflows.
 
-`C#` `ASP.NET Core` `MSSQL` `CQRS` `MediatR` `Azure DevOps`
+ASP.NET CorePower AutomateSharePointLow-Code
 
----
+📦 e-Procurement System Ethiopian Airlines
 
-### ✈️ Ethiopian Civil Aviation Authority – E-Service System
-> Low-code digital platform for national civil aviation services
+Purchase request & supplier management system with RabbitMQ async workflows, connecting finance and inventory systems across departments.
 
-- Developed **low-code e-service platform** for pilot licensing, crew applications & aviation operations
-- Built **metadata-driven dynamic form builder** — new services deployed without code changes
-- Implemented **multi-level approval engine** via Power Automate + SharePoint
-- Digitized manual aviation workflows into fully automated e-services
+ASP.NET CoreRabbitMQMSSQLMicroservices
 
-`C#` `ASP.NET Core` `MSSQL` `Dynamic Forms` `Workflow Engine` `Power Automate` `SharePoint`
+🏥 Medical Management System 17,000+ Employees
 
----
+Manages medical records & employee health for 17,000+ Ethiopian Airlines employees. Built on CQRS + MediatR architecture for high scalability.
 
-### 🖥️ Desktop Application – Pilot License Printing System
-> Secure desktop system for pilot license printing & validation
+CQRSMediatRClean ArchPostgreSQL
 
-- Handles concurrent printing for **100+ pilots** with data integrity checks
-- Built-in audit tracking and compliance reporting for aviation authority
+🏨 AlphaPlus Booking System 2000+ Daily Users
 
-`C#` `.NET Framework` `WinForms` `MSSQL`
+Transit hotel booking backend serving 2000+ daily users. Automated booking & notification workflows, reducing booking errors by 40%.
 
----
+ASP.NET CoreNotificationsAutomation
 
-### 🛂 TDVS – Traveller Document Verification System
-> Airport document verification system for Ethiopian Airports
+Impact Numbers
 
-- Real-time passenger document validation at airport entry points
-- Database-driven verification reducing manual checking time significantly
-- Audit trail and compliance with aviation security requirements
+0
 
-`C#` `.NET Framework` `WinForms` `MSSQL`
+Employees Served
 
----
+0
 
-## 📊 GitHub Stats
+Daily Users
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gecher&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gecher&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-</p>
+0%
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gecher&theme=tokyonight&hide_border=true" />
-</p>
+Error Reduction
 
----
+"Building intelligent systems that simplify complex enterprise operations."
 
-## 📈 Impact at a Glance
+Ethiopian Airlines · Addis Ababa, Ethiopia
 
-| Metric | Value |
-|--------|-------|
-| 🏥 Employees served (Medical System) | 17,000+ |
-| ✈️ Daily operations supported | 10,000+ |
-| 🏨 Daily transit passengers (AlphaPlus) | 2,000+ |
-| 🏭 Suppliers integrated (E-Procurement) | 200+ |
-| 👨‍💻 Junior developers mentored | 5+ |
-| 📉 Booking errors reduced | 40% |
-| ⚙️ Operational efficiency improved | 30% |
-| 🚀 Deployment errors reduced | 50% |
-
----
-
-## 🌍 Focus Areas
-
-```
-AI Agent Systems          ████████████████████  
-Enterprise Backend        ████████████████████  
-Aviation Digital Systems  ████████████████░░░░  
-Low-Code Platforms        ███████████████░░░░░  
-Workflow Automation       ██████████████░░░░░░  
-```
-
----
-
-## 🎓 Education
-
-**BSc in Computer Science & Engineering**  
-Dilla University, Ethiopia &nbsp;|&nbsp; 2016 – 2021
-
----
-
-## 🌐 Languages
-
-🇬🇧 **English** — Fluent &nbsp;&nbsp; 🇪🇹 **Amharic** — Native
-
----
-
-## 📫 Connect With Me
-
-<p align="center">
-  <a href="mailto:getacherashebir@gmail.com">
-    <img src="https://img.shields.io/badge/Email-getacherashebir%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/gecher">
-    <img src="https://img.shields.io/badge/GitHub-gecher-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0097a7,100:0a0f1e&height=120&section=footer" />
-</p>
+const P=document.getElementById('particles'); for(let i=0;i<28;i++){ const p=document.createElement('div'); p.className='particle'; const colors=\['#42a5f5','#26c6da','#7c4dff','#ff7043','#00e676'\]; p.style.cssText=\`left:${Math.random()\*100}%;animation-duration:${6+Math.random()\*12}s;animation-delay:${Math.random()\*10}s;background:${colors\[Math.floor(Math.random()\*colors.length)\]};width:${1+Math.random()\*3}px;height:${1+Math.random()\*3}px;\`; P.appendChild(p); } const texts=\[ "Building intelligent systems for enterprise", "Designing multi-agent AI workflows", "Scaling aviation backend systems", "Turning complex processes into digital solutions" \]; let ti=0,ci=0,del=false; const el=document.getElementById('tagline'); function typeLoop(){ const cur=texts\[ti\]; if(!del){ ci++; el.innerHTML=cur.slice(0,ci)+'<span class="cursor"></span>'; if(ci===cur.length){del=true;setTimeout(typeLoop,2200);return;} setTimeout(typeLoop,42); } else { ci--; el.innerHTML=cur.slice(0,ci)+'<span class="cursor"></span>'; if(ci===0){del=false;ti=(ti+1)%texts.length;setTimeout(typeLoop,400);return;} setTimeout(typeLoop,20); } } typeLoop(); function animNum(id,target,suffix='',dur=1400){ const el=document.getElementById(id); let start=null; function step(ts){ if(!start)start=ts; const p=Math.min((ts-start)/dur,1); const v=Math.round(p\*p\*target); el.textContent=v.toLocaleString()+suffix; if(p<1)requestAnimationFrame(step); else el.textContent=target.toLocaleString()+suffix; } requestAnimationFrame(step); } const obs=new IntersectionObserver(entries=>{ entries.forEach(e=>{ if(e.isIntersecting){ animNum('stat1',17000,''); animNum('stat2',2000,''); animNum('stat3',40,'%'); obs.disconnect(); } }); },{threshold:.4}); obs.observe(document.getElementById('stat1'));
