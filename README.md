@@ -1,41 +1,19 @@
+
+
+<h1 align="center">Hi, I'm Getacher Ashebir 👋</h1>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1e,50:1565c0,100:0097a7&height=220&section=header&text=Getacher%20Ashebir%20Yimer&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20%7C%20Backend%20Engineer%20%7C%20AI%20%26%20Agentic%20Systems&descSize=16&descAlignY=58&descColor=90caf9" />
+  <b>Backend Engineer · AI & Agentic Systems · Enterprise Architect</b><br/>
+  <i>Ethiopian Airlines · Addis Ababa, Ethiopia</i>
 </p>
 
 <p align="center">
-  <a href="mailto:getacherashebir@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-getacherashebir%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/gecher">
-    <img src="https://img.shields.io/badge/GitHub-gecher-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="tel:+251949821895">
-    <img src="https://img.shields.io/badge/Phone-%2B251%20949%20821%20895-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
+  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI_/_LLMs-00BCD4?style=flat-square&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Multi--Agent-7C4DFF?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Aviation_Systems-FF7043?style=flat-square&logo=airplayaudio&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Clean_Architecture-00E676?style=flat-square&logo=buffer&logoColor=white"/>
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
-</p>
-
----
-
-## 👋 Hi, I'm Getacher Ashebir
-
-🚀 **Backend-focused Full Stack Engineer** specializing in **AI-powered systems, agentic workflows, and scalable enterprise platforms**.
-
-Currently at **Ethiopian Airlines** (2022–Present), where I lead backend architecture for mission-critical systems across aviation, procurement, healthcare, and digital service delivery — serving **10,000+ daily operations** and **17,000+ employees**.
-
-> *"Building intelligent systems that simplify complex enterprise operations."*
-
----
 
 ## 🧠 About Me
 
